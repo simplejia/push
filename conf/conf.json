@@ -1,0 +1,44 @@
+{
+    "prod": { // 运行环境，启动时通过-env参数指定，如：$prog -env prod
+        "app": {
+            "name": "push",
+            "port": 8335 // 服务监听端口
+        },
+        "clog": {
+            "name":"push",
+            "mode": 2, // 0: none, 1: localfile, 2: clog (数字代表bit位)
+            "level": 14 // 0: none, 1: debug, 2: warn 4: error 8: info (数字代表bit位)
+        },
+        "addrs": { // 定义各种名字服务
+            "clog": "clog.srv.ns"
+        }
+    },
+    "test": { // 运行环境，启动时通过-env参数指定，如：$prog -env test
+        "app": {
+            "name": "push",
+            "port": 8335 // 服务监听端口
+        },
+        "clog": {
+            "name":"push",
+            "mode": 3, // 0: none, 1: localfile, 2: clog (数字代表bit位)
+            "level": 15 // 0: none, 1: debug, 2: warn 4: error 8: info (数字代表bit位)
+        },
+        "addrs": { // 定义各种名字服务
+            "clog": "clog.srv.ns"
+        }
+    },
+    "dev": { // 运行环境，启动时通过-env参数指定，如：$prog -env dev
+        "app": {
+            "name": "push",
+            "port": 8335 // 服务监听端口
+        },
+        "clog": {
+            "name":"push",
+            "mode": 3, // 0: none, 1: localfile, 2: clog (数字代表bit位)
+            "level": 15 // 0: none, 1: debug, 2: warn 4: error 8: info (数字代表bit位)
+        },
+        "addrs": { // 定义各种名字服务
+            "clog": "clog.srv.ns"
+        }
+    }
+}
