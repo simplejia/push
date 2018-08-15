@@ -63,4 +63,4 @@
     mongo: gopkg.in/mgo.v2
 
 ## 注意
-    > 如果在controller里修改了路由，编译前需执行go generate，实际是运行了wsp这个工具，所以需要提前go get github.com/simplejia/wsp
+> 如果在controller里修改了路由，编译前需执行go generate，实际是运行了wsp这个工具，所以需要提前go get github.com/simplejia/wsp
