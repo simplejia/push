@@ -3,9 +3,9 @@ package target
 import (
 	"fmt"
 
+	"github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
 	"github.com/simplejia/push/api"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
 )
 
 func (target *Target) ListAndSet(pid int64, limit int) (targets []*Target, err error) {

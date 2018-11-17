@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
 	"github.com/simplejia/push/api"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
 )
 
 func (project *Project) UpdateState(curState, newState api.State) (exist bool, err error) {

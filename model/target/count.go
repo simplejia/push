@@ -1,7 +1,7 @@
 package target
 
 import (
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 )
 
 func (target *Target) Count() (n int, err error) {

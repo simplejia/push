@@ -7,7 +7,7 @@ import (
 
 	"lib"
 
-	"github.com/simplejia/clog"
+	"github.com/simplejia/clog/api"
 	"github.com/simplejia/push/api"
 	"github.com/simplejia/push/service"
 )

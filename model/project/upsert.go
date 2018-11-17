@@ -1,7 +1,7 @@
 package project
 
 import (
-	mgo "gopkg.in/mgo.v2"
+	mgo "github.com/globalsign/mgo"
 )
 
 func (project *Project) Upsert() (err error) {

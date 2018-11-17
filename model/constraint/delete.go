@@ -1,7 +1,7 @@
 package constraint
 
 import (
-	"gopkg.in/mgo.v2"
+	"github.com/globalsign/mgo"
 )
 
 func (constraint *Constraint) Delete() (err error) {

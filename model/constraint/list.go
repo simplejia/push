@@ -1,8 +1,8 @@
 package constraint
 
 import (
+	"github.com/globalsign/mgo/bson"
 	"github.com/simplejia/push/api"
-	"gopkg.in/mgo.v2/bson"
 )
 
 func (constraint *Constraint) List(offset, num int) (constraints []*Constraint, err error) {

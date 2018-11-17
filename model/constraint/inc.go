@@ -1,8 +1,8 @@
 package constraint
 
 import (
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
 )
 
 func (constraint *Constraint) Inc(field string, amount, max int) (updatedConstraint *Constraint, err error) {

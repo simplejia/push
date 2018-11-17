@@ -1,8 +1,8 @@
 package project
 
 import (
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
 )
 
 func (project *Project) Inc(field string, amount, max int) (updatedProject *Project, err error) {

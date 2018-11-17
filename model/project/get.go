@@ -1,7 +1,7 @@
 package project
 
 import (
-	"gopkg.in/mgo.v2"
+	"github.com/globalsign/mgo"
 )
 
 func (project *Project) Get() (projectRet *Project, err error) {

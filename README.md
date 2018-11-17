@@ -60,7 +60,7 @@
     wsp: github.com/simplejia/wsp
     clog: github.com/simplejia/clog
     utils: github.com/simplejia/utils
-    mongo: gopkg.in/mgo.v2
+    mongo: github.com/globalsign/mgo
 
 ## 注意
     > 如果在controller里修改了路由，编译前需执行go generate，实际是运行了wsp这个工具，所以需要提前go get github.com/simplejia/wsp

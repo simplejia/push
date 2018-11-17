@@ -1,7 +1,7 @@
 package constraint
 
 import (
-	mgo "gopkg.in/mgo.v2"
+	mgo "github.com/globalsign/mgo"
 )
 
 func (constraint *Constraint) Upsert() (err error) {

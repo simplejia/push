@@ -1,8 +1,8 @@
 package project
 
 import (
+	"github.com/globalsign/mgo/bson"
 	"github.com/simplejia/push/api"
-	"gopkg.in/mgo.v2/bson"
 )
 
 func (project *Project) List(offset, limit int) (projects []*Project, err error) {

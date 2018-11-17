@@ -3,7 +3,7 @@ package target
 import (
 	"fmt"
 
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 )
 
 func (target *Target) SetPidState() (err error) {

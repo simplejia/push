@@ -6,7 +6,7 @@ import (
 	"github.com/simplejia/push/api"
 	"github.com/simplejia/push/mongo"
 
-	mgo "gopkg.in/mgo.v2"
+	mgo "github.com/globalsign/mgo"
 )
 
 type Project api.Project
